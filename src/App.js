@@ -4,6 +4,7 @@ import Login from './components/Login';
 import ChangeColor from './components/ChangeColor';
 import IceCream from './components/IceCream';
 import Cake from './components/Cake';
+import FetchUser from './components/FetchUser';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div>
         <Cake/>
         <IceCream/>
+        <FetchUser/>
       </div>
     </>
   );
